@@ -39,6 +39,7 @@ exports.turn = {
           "stun:stun3.l.google.com:19302",
           "stun:stun4.l.google.com:19302",
           "stun:stun.services.mozilla.com",
+          "stun:stun.stunprotocol.org:3478",
           "turn:turn.anyfirewall.com:443?transport=tcp"
         ]
       });
