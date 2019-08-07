@@ -97,8 +97,7 @@ var makeMediaTrackConstraints = function (constraintsString) {
 
 var makeMediaStreamConstraints = function (audio, video, firefoxFakeDevice) {
   var streamConstraints = {
-    audio: makeMediaTrackConstraints(audio),
-    video: makeMediaTrackConstraints(video)
+    audio: makeMediaTrackConstraints(audio)
   };
 
   if (firefoxFakeDevice) streamConstraints.fake = true;
